@@ -1,0 +1,33 @@
+PODS:
+  - PanModal (1.2.5)
+  - Then (2.6.0)
+  - TinyConstraints (4.0.1)
+
+DEPENDENCIES:
+  - PanModal (from `https://github.com/mgray88/PanModal`, tag `toc.1`)
+  - Then
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - Then
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  PanModal:
+    :git: https://github.com/mgray88/PanModal
+    :tag: toc.1
+
+CHECKOUT OPTIONS:
+  PanModal:
+    :git: https://github.com/mgray88/PanModal
+    :tag: toc.1
+
+SPEC CHECKSUMS:
+  PanModal: 7c5af3ad4fe22b91508040965bebffb89fb607ae
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
+
+PODFILE CHECKSUM: fd5d862c9d95cf7a5b72144ebe104cf977e5ae98
+
+COCOAPODS: 1.8.4

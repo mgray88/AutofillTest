@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		27C078E7241BED2C001AE721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C078E6241BED2C001AE721 /* AppDelegate.swift */; };
-		27C078E9241BED2C001AE721 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C078E8241BED2C001AE721 /* SceneDelegate.swift */; };
 		27C078EB241BED2C001AE721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C078EA241BED2C001AE721 /* ViewController.swift */; };
-		27C078EE241BED2C001AE721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C078EC241BED2C001AE721 /* Main.storyboard */; };
 		27C078F0241BED2D001AE721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C078EF241BED2D001AE721 /* Assets.xcassets */; };
-		27C078F3241BED2D001AE721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27C078F1241BED2D001AE721 /* LaunchScreen.storyboard */; };
+		27C07916241BEFAA001AE721 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07910241BEFAA001AE721 /* SignupViewController.swift */; };
+		27C07917241BEFAA001AE721 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07911241BEFAA001AE721 /* AccountViewController.swift */; };
+		27C0791A241BEFAA001AE721 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07914241BEFAA001AE721 /* LoginViewController.swift */; };
+		27C0791E241BF136001AE721 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C0791D241BF136001AE721 /* UIColor+Extensions.swift */; };
+		27C07922241BF316001AE721 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07921241BF316001AE721 /* LoginView.swift */; };
+		27C07923241BF316001AE721 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C0791F241BF316001AE721 /* SignupView.swift */; };
+		27C07924241BF316001AE721 /* LoginSignupBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07920241BF316001AE721 /* LoginSignupBase.swift */; };
+		27C0792B241BF391001AE721 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07926241BF391001AE721 /* CheckboxView.swift */; };
+		27C0792C241BF391001AE721 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07927241BF391001AE721 /* PasswordTextField.swift */; };
+		27C0792D241BF391001AE721 /* PaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07928241BF391001AE721 /* PaddingLabel.swift */; };
+		27C0792E241BF391001AE721 /* IconTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C07929241BF391001AE721 /* IconTextField.swift */; };
+		27C0792F241BF391001AE721 /* ChainedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C0792A241BF391001AE721 /* ChainedTextField.swift */; };
+		4E979F8F058B729500166456 /* Pods_AutofillTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EED3EFABA76D22F86330FBC0 /* Pods_AutofillTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1360B520D09944704A30FEAB /* Pods-AutofillTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillTest.debug.xcconfig"; path = "Target Support Files/Pods-AutofillTest/Pods-AutofillTest.debug.xcconfig"; sourceTree = "<group>"; };
 		27C078E3241BED2C001AE721 /* AutofillTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutofillTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27C078E6241BED2C001AE721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		27C078E8241BED2C001AE721 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		27C078EA241BED2C001AE721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27C078ED241BED2C001AE721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27C078EF241BED2D001AE721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		27C078F2241BED2D001AE721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27C078F4241BED2D001AE721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27C078FA241BEE65001AE721 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = /Users/mike/Devel/AutofillTest/AutofillTest/LaunchScreen.storyboard; sourceTree = "<absolute>"; };
+		27C07910241BEFAA001AE721 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		27C07911241BEFAA001AE721 /* AccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		27C07914241BEFAA001AE721 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		27C0791D241BF136001AE721 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		27C0791F241BF316001AE721 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		27C07920241BF316001AE721 /* LoginSignupBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSignupBase.swift; sourceTree = "<group>"; };
+		27C07921241BF316001AE721 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		27C07926241BF391001AE721 /* CheckboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		27C07927241BF391001AE721 /* PasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		27C07928241BF391001AE721 /* PaddingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingLabel.swift; sourceTree = "<group>"; };
+		27C07929241BF391001AE721 /* IconTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconTextField.swift; sourceTree = "<group>"; };
+		27C0792A241BF391001AE721 /* ChainedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainedTextField.swift; sourceTree = "<group>"; };
+		27C07930241BF6D5001AE721 /* AutofillTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AutofillTest.entitlements; sourceTree = "<group>"; };
+		4A4582F5F3697C83B4879F73 /* Pods-AutofillTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutofillTest.release.xcconfig"; path = "Target Support Files/Pods-AutofillTest/Pods-AutofillTest.release.xcconfig"; sourceTree = "<group>"; };
+		EED3EFABA76D22F86330FBC0 /* Pods_AutofillTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutofillTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E979F8F058B729500166456 /* Pods_AutofillTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				27C078E5241BED2C001AE721 /* AutofillTest */,
 				27C078E4241BED2C001AE721 /* Products */,
+				EFE6D63A2E1E471986D9678B /* Pods */,
+				333CF51EDAED893250AC5DCB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,59 @@
 		27C078E5241BED2C001AE721 /* AutofillTest */ = {
 			isa = PBXGroup;
 			children = (
+				27C07930241BF6D5001AE721 /* AutofillTest.entitlements */,
+				27C0791C241BEFBD001AE721 /* LoginSignup */,
 				27C078E6241BED2C001AE721 /* AppDelegate.swift */,
-				27C078E8241BED2C001AE721 /* SceneDelegate.swift */,
+				27C078FA241BEE65001AE721 /* LaunchScreen.storyboard */,
 				27C078EA241BED2C001AE721 /* ViewController.swift */,
-				27C078EC241BED2C001AE721 /* Main.storyboard */,
 				27C078EF241BED2D001AE721 /* Assets.xcassets */,
-				27C078F1241BED2D001AE721 /* LaunchScreen.storyboard */,
 				27C078F4241BED2D001AE721 /* Info.plist */,
+				27C0791D241BF136001AE721 /* UIColor+Extensions.swift */,
 			);
 			path = AutofillTest;
+			sourceTree = "<group>";
+		};
+		27C0791C241BEFBD001AE721 /* LoginSignup */ = {
+			isa = PBXGroup;
+			children = (
+				27C07925241BF367001AE721 /* Views */,
+				27C07911241BEFAA001AE721 /* AccountViewController.swift */,
+				27C07914241BEFAA001AE721 /* LoginViewController.swift */,
+				27C07910241BEFAA001AE721 /* SignupViewController.swift */,
+			);
+			path = LoginSignup;
+			sourceTree = "<group>";
+		};
+		27C07925241BF367001AE721 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				27C0792A241BF391001AE721 /* ChainedTextField.swift */,
+				27C07926241BF391001AE721 /* CheckboxView.swift */,
+				27C07929241BF391001AE721 /* IconTextField.swift */,
+				27C07920241BF316001AE721 /* LoginSignupBase.swift */,
+				27C07921241BF316001AE721 /* LoginView.swift */,
+				27C07928241BF391001AE721 /* PaddingLabel.swift */,
+				27C07927241BF391001AE721 /* PasswordTextField.swift */,
+				27C0791F241BF316001AE721 /* SignupView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		333CF51EDAED893250AC5DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EED3EFABA76D22F86330FBC0 /* Pods_AutofillTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFE6D63A2E1E471986D9678B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1360B520D09944704A30FEAB /* Pods-AutofillTest.debug.xcconfig */,
+				4A4582F5F3697C83B4879F73 /* Pods-AutofillTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27C078F7241BED2D001AE721 /* Build configuration list for PBXNativeTarget "AutofillTest" */;
 			buildPhases = (
+				4D13AD1DAAC1BE54A8B39967 /* [CP] Check Pods Manifest.lock */,
 				27C078DF241BED2C001AE721 /* Sources */,
 				27C078E0241BED2C001AE721 /* Frameworks */,
 				27C078E1241BED2C001AE721 /* Resources */,
+				1F19F357F2A9598CBC8AB4B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,45 +198,77 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27C078F3241BED2D001AE721 /* LaunchScreen.storyboard in Resources */,
 				27C078F0241BED2D001AE721 /* Assets.xcassets in Resources */,
-				27C078EE241BED2C001AE721 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F19F357F2A9598CBC8AB4B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutofillTest/Pods-AutofillTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutofillTest/Pods-AutofillTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutofillTest/Pods-AutofillTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D13AD1DAAC1BE54A8B39967 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutofillTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27C078DF241BED2C001AE721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27C0792D241BF391001AE721 /* PaddingLabel.swift in Sources */,
+				27C07916241BEFAA001AE721 /* SignupViewController.swift in Sources */,
+				27C07922241BF316001AE721 /* LoginView.swift in Sources */,
+				27C0791E241BF136001AE721 /* UIColor+Extensions.swift in Sources */,
+				27C0792B241BF391001AE721 /* CheckboxView.swift in Sources */,
 				27C078EB241BED2C001AE721 /* ViewController.swift in Sources */,
+				27C07924241BF316001AE721 /* LoginSignupBase.swift in Sources */,
+				27C0792E241BF391001AE721 /* IconTextField.swift in Sources */,
+				27C07923241BF316001AE721 /* SignupView.swift in Sources */,
+				27C07917241BEFAA001AE721 /* AccountViewController.swift in Sources */,
+				27C0792F241BF391001AE721 /* ChainedTextField.swift in Sources */,
+				27C0791A241BEFAA001AE721 /* LoginViewController.swift in Sources */,
+				27C0792C241BF391001AE721 /* PasswordTextField.swift in Sources */,
 				27C078E7241BED2C001AE721 /* AppDelegate.swift in Sources */,
-				27C078E9241BED2C001AE721 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		27C078EC241BED2C001AE721 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27C078ED241BED2C001AE721 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		27C078F1241BED2D001AE721 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27C078F2241BED2D001AE721 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		27C078F5241BED2D001AE721 /* Debug */ = {
@@ -282,11 +387,14 @@
 		};
 		27C078F8241BED2D001AE721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1360B520D09944704A30FEAB /* Pods-AutofillTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutofillTest/AutofillTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y28MH7BAY;
 				INFOPLIST_FILE = AutofillTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +408,14 @@
 		};
 		27C078F9241BED2D001AE721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4582F5F3697C83B4879F73 /* Pods-AutofillTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AutofillTest/AutofillTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Y28MH7BAY;
 				INFOPLIST_FILE = AutofillTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
